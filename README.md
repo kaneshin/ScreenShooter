@@ -4,7 +4,7 @@
 
 ## Support
 
-- OSX 10.9+
+- OSX 10.10
 
 ## Usage
 
@@ -15,6 +15,7 @@
   "data": [{
     "url": "http://example.com/1.0/image",
     "method": "POST",
+    "name": "image",
     "data": {
       "token": "YOUR ACCESS TOKEN",
       "image": "{{_FILE_}}"
@@ -23,13 +24,24 @@
   {
     "url": "http://example.org/",
     "method": "PUT",
+    "name": "img",
     "data": {
       "token": "YOUR ACCESS TOKEN",
-      "file": "{{_FILE_}}",
+      "title": "img.png"
+    }
+  },
+  {
+    "url": "https://slack.com/api/files.upload",
+    "method": "POST",
+    "name": "file",
+    "data": {
+      "token": "xoxp-xxxxxxxxxx-xxxxxxxxxx-xxxxxxxxxx-xxxxxx",
+      "channels": "yyyyyyyyy",
       "title": "img.png"
     }
   }]
 }
+
 ```
 
 ## License
