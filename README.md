@@ -1,5 +1,7 @@
 # ScreenShooter
 
+**Deprecated** Move [kaneshin/Cape](https://github.com/kaneshin/Cape)
+
 ## Installation
 
 ## Support
